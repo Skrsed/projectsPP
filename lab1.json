@@ -1,0 +1,27 @@
+[
+  {
+    "url": "http://lab1ppapis/api/v1/fibonaccis/40",
+    "response": {"data":102334155},
+    "method": "GET"
+  },
+  {
+    "url": "http://lab1ppapis/api/v1/weekdays?date=2019-05-03",
+    "response": {"data":"Пятница"},
+    "method": "GET"
+  },
+  {
+    "url": "http://lab1ppapis/api/v1/regions/5",
+    "response": {"data":"Республика Дагестан"},
+    "method": "GET"
+  },
+  {
+    "url": "http://lab1ppapis/api/v1/quadratics?a=1&b=-70&c=600",
+    "response": {"data":{"x1":60,"x2":10}},
+    "method": "GET"
+  },
+  {
+    "url": "http://lab1ppapis/api/v1/numToWords/123",
+    "response": {"data":"сто двадцать три"},
+    "method": "GET"
+  }
+]
